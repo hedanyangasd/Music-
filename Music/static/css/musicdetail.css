@@ -1,0 +1,354 @@
+@charset 'utf-8';
+.fff{
+	width: 980px;
+	margin: auto;
+	background-color:white;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+
+.clear{
+	*zoom: 1;
+}
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+/****************left****************/
+.result-left{
+	float: left;
+	width: 710px;
+	border-right: 1px solid #d4d4d4;
+}
+
+.main{
+	width: 600px;
+	padding: 50px;
+	overflow: hidden;
+}
+.main .main-title {
+	overflow: hidden;
+	border-bottom: solid 1px #ccc;
+}
+.main .main-title h3{
+	font-size: 20px;
+	line-height: 40px;
+	/*float: left;*/
+}
+.main .main-title span {
+	display: block;
+	font-size: 16px;
+	float: left;
+	margin-left: 20px;
+	line-height: 45px;
+}
+.main .content {
+	width: 401px;
+	float: right;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 25px;
+	min-height: 550px;
+}
+.main .content.txtOF {
+	height: 400px;
+	overflow: hidden;
+}
+.main .content p.active{
+	color: #033e7b;
+	font-size: 18px;
+	padding: 10px 0;
+}
+.main a{
+	width: 100%;
+	clear: both;
+	color: blue;
+	line-height: 30px;
+	display: block;
+}
+
+.toggle{
+	margin-left:300px;
+}
+/*************************top*************************/
+#the-cd-top{
+	height: 230px;
+}
+#the-cd-cover{
+	float: left;
+	width: 170px;
+	height: 60px;
+}
+#the-cd-cover img{
+	width: 170px;
+	padding: 3px;
+    border: 1px solid #CCCCCC;
+}
+#cd-des{
+	width: 491px;
+	float: left;
+	margin-left: 195px;
+	margin-top: -60px;
+}
+
+.cd-des-p a {
+	float:left;
+	margin: -23px -5px 2px 38px;
+}
+.cd-des-p{
+	margin-bottom: 20px;
+	height: 65px;
+	margin-top: 7px;
+}
+
+.cd-des-img{
+	width: 50px;
+	float: left;
+	margin-top: 15px;
+}
+
+
+#the-songlist-cre{
+	float: left;
+    margin: 30px 0px 0px 15px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+#cd-des .the-cd-detail-icon{
+	background: url(../image/bofang-icon.png);
+	background-size: 70px;
+    width: 55px;
+    height: 20px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 9px;
+    font-size: 12px;
+}
+#the-cd-tit{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	margin:-36px 0px 0px 73px;
+}
+.the-cd-detail-icon{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	color: dimgray;
+}
+
+.the-cd-icon{
+	color:#999;
+	float:left;
+	width: 50px;
+	margin: -15px 5px;
+}
+
+.the-cd-icon p{
+	margin-left:26px;
+}
+
+.the-cd-icon a{
+	color:dimgray;
+}
+
+.the-cd-icon img{
+	float:left;
+	width: 23px;
+
+}
+.shoucang{
+	margin-left:70px;
+}
+
+.pinglun{
+	margin-left:140px;
+}
+#the-cd-icon a{
+	text-decoration: none;	
+}
+
+
+.f-cd{
+	height: 27px;
+    border-bottom: 2px solid #033e7b;
+    width: 636px;
+    margin: 0px 37px;
+}
+.f-cd-text{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+}
+.f-cd p{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: dimgray;
+	margin: -17px 0px 0px 120px;
+}
+/************************comment********************/
+#the-cd-detail-comment {
+	margin-top: 30px;
+}
+#the-comment-textdiv{
+	width: 736px;
+}
+#the-comment-textarea{
+	resize: none;
+	width: 631px;
+    height: 45px;
+    margin: 8px 0px 0px 37px;
+    border: solid 1px #C6C6C6;
+}
+#the-comment-textdiv button {
+	margin: 9px 0 0 598px;
+	color: white;
+	padding: 5px;
+	width: 74px;
+	border: none;
+	background-color: lightseagreen;
+}
+#the-cd-detail-comment a{
+	text-decoration: none;
+	font-family: verdana,arial,sans-serif;
+    font-size:13px;
+    cursor: pointer;
+    color:gray;
+}
+#the-cd-detail-comment a:hover {
+	text-decoration:underline;
+} 
+#the-cd-detail-comment li {
+	margin-left: 37px;
+	margin-top: 25px;
+	padding-bottom: 20px;
+	width: 633px;
+	list-style: none;
+	border-bottom: 1px solid #CCCCCC;
+	font-family: verdana,arial,sans-serif;
+    font-size:13px;
+    color:#333333;
+}
+.the-comment-photo {
+	width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+}
+.the-comment-date{
+	margin: 10px 0 25px 59px;
+	color: #999999;
+}
+.the-comment-date p {
+	float: left;
+	margin-top: 0px;
+}
+.the-comment-date img {
+	width: 20px;
+	float: left;
+	opacity: 0.8;
+}
+.the-comment-date-detail{
+	margin-right: 300px;
+}
+
+/*************right******************/
+.result-right{
+	float: right;
+	width: 269px;
+}
+.result-right h6{
+	margin: 0 5%;
+	font-size: 12px;
+	line-height: 38px;
+	border-bottom: solid 1px #ccc;
+}
+
+.result-xh{
+	padding-top:10px;
+}
+
+.result-xh img{
+	margin-top:14px;
+	margin-left:14px;
+	width:50px;
+	float:left;
+}
+
+.sidebar-photo-right{
+	margin: 15px 14px;
+}
+
+.sidebar-photo-right li{
+	margin-top: 8px;
+
+}
+
+.sidebar-photo-right p{
+	margin-left: 60px;
+	margin-top: 8px;
+	width:180px;
+	height:19px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+
+}
+
+.sidebar-photo-right a{
+	color:black;
+}
+
+
+.sidebar-photo-right a:hover{
+	text-decoration:underline;
+}
+
+.sidebar-photo-right img{
+	float: left;
+	width: 50px;
+}
+
+.sidebar-photo-right-1 a{
+	color:gray;
+}
+.song-name a{
+	overflow:hidden;
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+	display:block;
+	width:142px;
+	height:15px;
+	color:black;
+	margin:6px 14px;
+}
+
+.song-name a:hover{
+	text-decoration: underline;
+}
+
+
+.song-name{
+	float:left;
+    font-size: 13px;
+}
+.singer-name a{
+	color:gray;	
+}
+
+.song-bo{
+
+	 font-size: 13px;
+	float:right;
+margin: 12px 13px;
+}
+

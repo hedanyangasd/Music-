@@ -1,0 +1,80 @@
+.fff{
+	width: 980px;
+	height:800px;
+	margin: auto;
+	background-color:white;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+.fff-in{
+	padding:28px 30px;
+}
+
+.f-cd{
+	height: 40px;
+    border-bottom: 2px solid #033e7b;
+}
+.f-cd-text{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    font-weight: normal;
+}
+.u-cover{
+	height: 85%;
+}
+.cover {
+    display: block;
+    width: 85%;
+    height: 85%;
+    position: relative;
+	z-index: 1;
+}
+.msk {
+    width: 153px;
+    height: 130px;
+    position: relative;
+    top: -130px;
+    left: 6px;
+    z-index: 0;
+}
+
+.the-cd-list p{
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.cd-tit a{
+    font-size: 14px;
+    color: #333;
+}
+.cd-txt{
+	display: inline-block;
+    max-width: 100%;
+    _width: 100%;
+    vertical-align: middle;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -25px;
+}
+.cd-songer a{
+	margin-top: -12px;
+    font-size: 11px;
+    color: gray;
+}
+.the-cd-list li {
+	width: 157px;
+    height: 178px;
+    display: list-item;
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 30px 30px;
+    line-height: 1.4;
+}
+.the-cd-list{
+	margin-left: -18px;
+	margin-top:16px;
+}

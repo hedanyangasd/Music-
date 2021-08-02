@@ -1,0 +1,686 @@
+/*-------主页内容-------*/
+.header{
+    height: 105px;
+}
+.header .sub-list{
+    height: 35px;
+}
+
+.wrap {
+    width: 100%;
+    min-width: 1100px;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+
+.left {
+    left: 10%;
+}
+
+.right {
+    right: 10%;
+}
+
+.btn {
+    line-height: 32px;
+    font-size: 50px;
+    top: 237px;
+    position: absolute;
+    cursor: pointer;
+    width: 35px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 10;
+    transform: scale(1, 2);
+}
+
+
+.btn a:hover {
+    font-size: 50px;
+    display: block;
+    width: 35px;
+    height: 36px;
+    font-weight: 10;
+    line-height: 32px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#change {
+    width: 100%;
+}
+
+
+.wrap-in {
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    width: 978px;
+    margin: 0 auto;
+    background: white;
+}
+
+.wrap-in .column {
+    clear: both;
+}
+
+
+/*--wrap第1模块--头部--*/
+/*导航slides*/
+
+.wrap-in .main-top {
+    height: 332px;
+}
+
+
+
+/*slides*/
+.wrap-in .main-top .slides {
+    margin: auto;
+    width: 980px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap-in .main-top .slides ul.points {
+    position: absolute;
+}
+
+.wrap-in .main-top .slides ul.points li {
+    width: 980px;
+    float: left;
+}
+
+.wrap-in .main-top .slides ul.sub-tips {
+    width: 980px;
+    position: absolute;
+    color: #ddd;
+    padding: 5px 0;
+    text-align: center;
+    bottom: 0;
+    left: 19%;
+}
+
+.wrap-in .main-top .slides ul.sub-tips li {
+    cursor: pointer;
+    width: 25px;
+    float: left;
+}
+
+.wrap-in .main-top .slides ul.sub-tips li:first-child {
+    /*css3*/
+    margin-left: 230px;
+}
+
+.wrap-in .main-top .slides ul.sub-tips li:hover,
+.wrap-in .main-top .slides ul.sub-tips li.active {
+    color: #0F3C8D;
+}
+
+
+/*----End-----*/
+/*----wrap第2模块--中层---*/
+.wrap-in .column.main-type {
+    width: 100%;
+    height: 120px;
+}
+
+.wrap-in .column .enter {
+    margin-top: 10px;
+    width: 19%;
+    height: 100%;
+    float: left;
+    background: #fff;
+    margin-left: 6px;
+}
+
+.wrap-in .column .enter ul {
+    width: 100%;
+}
+
+.wrap-in .column .enter ul.enter-btns li a {
+    color: black;
+    display: block;
+}
+
+.wrap-in .column .enter ul.enter-share li a {
+    color: white;
+    display: block;
+    width: 91px;
+}
+
+.wrap-in .column .enter ul.enter-btns li {
+    width: 49.5%;
+    line-height: 50px;
+    font-size: 14px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.wrap-in .column .enter ul.enter-share {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #033e7b;
+}
+
+.wrap-in .column .enter ul.enter-share li {
+    line-height: 35px;
+
+    float: left;
+    text-align: center;
+}
+
+.wrap-in .column .acts {
+    margin-top: 10px;
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.wrap-in .column .acts ul li {
+    width: 31%;
+    margin: 0 0 0 2%;
+    float: left;
+}
+
+.wrap-in .column .enter ul.enter-btns li a:hover {
+    background: #033e7b;
+    color: white;
+}
+
+.wrap-in .column .enter ul.enter-share li a:hover {
+    color: #eee;
+    background: #050342;
+}
+
+.wrap-in .column .enter ul li.border-aside {
+    width: 1%;
+    height: 50px;
+    background: #033e7b;
+}
+
+.wrap-in .column .enter ul li.border {
+    width: 100%;
+    height: 2px;
+    background: #033e7b;
+}
+
+.wrap-in .column .enter ul li.bdr-aside {
+    width: 1%;
+    color: white;
+}
+
+
+
+/*----End-----*/
+/*----wrap第3模块---新碟上架---*/
+
+.title-one {
+    width: 61%;
+    margin: 0 auto;
+}
+
+.sidebar-one .bofang {
+    margin-left: 188px;
+    width: 80px;
+    position: absolute;
+    z-index: 10;
+}
+
+
+.main-pro {
+
+    width: 980px;
+    margin: 30px 0;
+}
+
+.section-one {
+    float: left;
+    width: 430px;
+    padding: 0 50px;
+}
+
+.section-one h1,
+h2 {
+    padding: 15px 0px;
+}
+
+.section-one button {
+    margin-top: 34px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: url(../image/kuangkuang.png);
+}
+
+.section-one a {
+    color: black;
+    text-decoration: none;
+}
+
+.section-one .line-1 {
+    border: 3px solid #202129;
+    width: 80px;
+}
+
+.section-one .line-2 {
+    border: 3px solid #202129;
+    float: right;
+    width: 260px;
+    margin-top: 22px;
+}
+
+.section-one .line-3 {
+    margin-top: -31px;
+    height: 39px;
+    border-right: 3px solid #535353;
+    border-bottom: 3px solid #535353;
+
+}
+
+.section-one h3 {
+    height: 13px;
+}
+
+.section-one p {
+    font-size: 15px;
+    line-height: 24px;
+    width: 406px;
+    height: 140px;
+    margin: -9px auto;
+    overflow: hidden;
+}
+
+.section-one ul {
+    margin-left: -103px;
+    padding: 16px 0px;
+}
+
+.section-one li {
+    list-style: disc;
+    font-size: 13px;
+    float: left;
+    margin-left: 116px;
+}
+
+
+
+.sidebar-one {
+    float: right;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.sidebar-one ul {
+    margin-top: 90px;
+}
+
+.sidebar-one li {
+    width: 428px;
+    list-style: none;
+    position: absolute;
+    transition: all 0.3s ease-out;
+}
+
+.main-pro-next {
+    margin-top: -25px;
+    margin-right: 18px;
+}
+
+.main-pro-next img {
+    width: 20px;
+    float: right;
+}
+
+
+.main-pro-next p {
+    height: 10px;
+    line-height: 20px;
+    float: right;
+    padding: 0 3px;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+/*----End-----*/
+/*----wrap第4模块--歌曲分类--*/
+.main-hot {
+    width: 978px;
+    background: #202129;
+    height: 430px;
+    margin-top: 75px;
+}
+
+.sidebar-two {
+    position: absolute;
+    z-index: 2;
+    width: 444px;
+    margin-top: 80px;
+    margin-left: 32px;
+}
+
+.section-two {
+    float: right;
+    width: 770px;
+}
+
+.section-two-text {
+    width: 360px;
+    height: 205px;
+    margin-top: 110px;
+    margin-left: 500px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.line-4 {
+    margin-top: 25px;
+    width: 112px;
+    border-bottom: 3px solid white;
+}
+
+.section-two-text p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.section-two-text span {
+    line-height: 28px;
+    color: darkgrey;
+    font-size: 14px;
+}
+
+.section-two-text button {
+    margin-top: 25px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    height: 30px;
+    width: 113px;
+    color: #202129;
+    background: url(../image/kuang.png);
+}
+
+
+/*----End-----*/
+/*----wrap第5模块--排行榜--*/
+
+
+.wrap-in .column .section {
+    width: 75%;
+    height: 100%;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+}
+
+
+.wrap-in .column .section h3 span {
+    color: #ddd;
+    font-size: 10px;
+    padding: 2%;
+}
+
+.wrap-in .column .sidebar {
+    width: 24%;
+    height: 100%;
+    float: right;
+    background: #fff;
+    overflow: hidden;
+}
+
+
+.wrap-in .column .section ul.pro-list li {
+    width: 33.3%;
+    height: auto;
+    float: left;
+}
+
+
+.wrap-in .main-rank {
+    margin-top: 10px;
+    width: 100%;
+    height: 600px;
+}
+
+.wrap-in .main-rank .section .rank {
+    margin: 15px;
+    height: 493px;
+    background: #f4f4f4;
+    border: solid 1px #ccc;
+    overflow: hidden;
+}
+
+.wrap-in .main-rank .section .rank dl {
+    width: 33.2%;
+    float: left;
+}
+
+.wrap-in .main-rank .section .rank dl a {
+    color: #333;
+}
+
+.wrap-in .main-rank .section .rank dl a:hover {
+    text-decoration: underline;
+}
+
+.wrap-in .main-rank .section .rank dl dt {
+    padding: 20px;
+    height: 80px;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt {
+    width: 50%;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt a.title {
+    width: 100%;
+    line-height: 30px;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt a.icon {
+    width: 22px;
+    height: 22px;
+    float: left;
+    display: block;
+    margin: 5px;
+    background: url('../image/index.png') no-repeat;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt a.icon-play {
+    background-position: -267px -205px;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt a.icon-play:hover {
+    background-position: -267px -235px;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt a.icon-add {
+    background: url('../image/iconplay.png');
+    background-position: 0px -695px;
+}
+
+.wrap-in .main-rank .section .rank dl dt .dt-txt a.icon-add:hover {
+    background-position: -22px -695px;
+}
+
+.wrap-in .main-rank .section .rank dl dd {
+    width: 100%;
+    height: 34px;
+    float: left;
+    overflow: hidden;
+    line-height: 32px;
+}
+
+.wrap-in .main-rank .section .rank dl dd span {
+    color: red;
+    font-size: 16px;
+    display: block;
+    width: 20px;
+    text-align: center;
+    float: left;
+    text-align: center;
+    padding: 0 10px 0 20px;
+}
+
+.wrap-in .main-rank .section .rank dl dd a.title {
+    display: block;
+    max-width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper {
+    width: 110px;
+    float: right;
+    display: none;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a {
+    width: 17px;
+    height: 17px;
+    margin: 8px 5px;
+    display: block;
+    float: left;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-play {
+    background: url('../image/index.png');
+    background-position: -267px -268px;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-play:hover {
+    background-position: -267px -288px;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-add {
+    width: 15px;
+    background: url('../image/iconplay.png');
+    background-position: 0 -698px;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-add:hover {
+    background-position: -22px -698px;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-store {
+    background: url(../image/aixin.png);
+	background-size: 100%;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-store:hover {
+    transform: scale(1.1);
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-scdgd {
+    background: url('../image/index.png');
+    background-position: -297px -268px;
+}
+
+.wrap-in .main-rank .section .rank dl dd .dd-oper a.icon-scdgd:hover {
+    background-position: -297px -288px;
+}
+
+.wrap-in .main-rank .section .rank dl .dd {
+    width: 100%;
+    height: 34px;
+    float: left;
+    line-height: 32px;
+    background: #e8e8e8;
+}
+
+.wrap-in .main-rank .section .rank dl .dd a.dd-more {
+    float: right;
+    margin-right: 30px;
+}
+
+.wrap-in .main-rank .section .rank .blk-border {
+    width: 0.2%;
+    height: 100%;
+    float: left;
+    background: #ddd;
+}
+
+.wrap-in .column .section h3 {
+    font-size: 18px;
+    margin: 0 2%;
+    padding: 1% 4%;
+    border-bottom: solid 1px #ccc;
+}
+
+.wrap-in .main-rank .sidebar h3 {
+    margin: 0 5%;
+    color: #888;
+    font-size: 16px;
+    line-height: 38px;
+    border-bottom: solid 1px #ccc;
+}
+
+.sidebar-photo {
+    margin-top: 16px;
+    margin-left: 13px;
+}
+
+.sidebar-photo li {
+    margin-top: 6px;
+    width: 207px;
+    height: 50px;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid #ccc;
+}
+
+.sidebar-photo p {
+    height: 15px;
+    float: left;
+    color: gray;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 18px;
+    margin-left: 18px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.sidebar-photo img {
+    float: left;
+    width: 52px;
+    height: 50px;
+}

@@ -1,0 +1,258 @@
+#alternatecolor>li{
+	       width: 427px;
+    float: left;
+
+    padding: 9px;
+} 
+
+/**********************first************/
+
+.photo{
+	float:left;
+	width: 180px;
+	height: 180px;
+}
+
+/*****************more-info*********************/
+.more-info{
+	width: 680px;
+	padding-left: 210px;
+	
+}
+/*****info-1************/
+.infor-1{
+	display: flex;
+	justify-content: space-between;
+	font-size: 15pt;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 15px;
+}
+.edit{
+	font-size: 9pt;
+	background-color: #eee;
+	text-decoration: none;
+	border-radius: 3px;
+	color:black;
+	height:30px;
+	width: 113px;
+    text-align: center;
+    line-height: 30px;
+	border:1px solid darkgrey;
+}
+/*****info-2************/
+.number2 {
+	display: flex;
+	color: gray;
+	
+}
+
+.number2 div{
+	padding-right: 50px;
+	border-right: 1px solid gainsboro;
+	font-size: 9pt;
+	margin-bottom: 10px;
+}
+.number2-2{
+	margin-left: 20px;
+}
+#number2-3{
+	border-right: none;
+}
+.num{
+	font-size: 18px;
+	color: gray;
+}
+.place{
+	color: gray;
+	font-size: 9pt;
+}
+
+/*******************************fans***********************/
+.main-fans {
+	min-height: 200px;
+}
+/****************table**********************/
+#the-song-list-table table{
+    width: 898px;
+    border: 1px solid #e8e8e8;
+}
+
+#the-song-list-table a:hover {
+	text-decoration:underline;
+} 
+
+
+.per-list{
+
+	padding: 10px;
+} 
+
+.left{
+		border-left: 2px solid #e8e8e8;
+}
+.oddrowcolor{
+    background-color:#f9f9f9;
+}
+.evenrowcolor{
+    background-color:white;
+}
+.fans-img{
+	width: 60px;
+	float: left;
+}
+
+.per-name{
+	color:blue;
+	margin-left: 6px;
+font-size: 14px;
+}
+
+.per-detail li a{
+	color:black;
+	float: left;
+}
+
+.per-detail li span{
+	color:blue;
+}
+.per-detail li{
+font-size: 12px;
+width: 50px;
+height: 17px;
+float: left;
+padding: 7px;
+}
+
+.guanzhu{
+	float: right;
+	font-size: 14px;
+	background-color: #3382cd;
+    width: 70px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+	margin-right: 14px;
+	margin-top: -6px;
+	color:white;
+}
+
+/******************************dynamic**************************/
+.state-content-border{
+	border-right:1px solid #d4d4d4;
+	width:690px;
+}
+.state-content{
+    width: 660px;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0 0 25px;
+    padding-top: 20px;
+	
+}
+.the-dongtai-user{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.user-photo-name-time{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.the-dongtai-name-time{
+	display: flex;
+	flex-direction: column;
+	/*margin-left: 12px;*/
+}
+.user-photo{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.the-dongtai-name{
+	color: #000062;
+	font-size: 14px;
+	margin: -44px 0 0 61px;
+}
+.the-dongtai-time{
+	font-size: 12px;
+	color: #C6C6C6;
+	margin: 4px 0 10px 61px;
+}
+
+/*************关注+删除*************/
+.attention{
+	padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+    background-color: #000062;
+    margin-right: 20px;
+margin-top: 5px;
+}
+.add{
+	text-decoration: none;
+    font-size: 13px;
+    color: white;
+	
+}
+
+/********************动态内容************************/
+.the-dongtai-content{
+	position: relative;
+	width: 88%;
+	margin-left: 62px;
+	margin-bottom: 20px;
+}
+.the-dongtai-content p{
+	width: 600px;
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+.the-dongtai-content a{
+	color: #000062;
+	font-size: 14px;
+}
+.state-photo{
+	width: 200px;
+    position: relative;
+    z-index: 4;
+    margin-left: -200px;
+    margin-right: 375px;
+    float: left;
+}
+.state-photo-bofang{
+	width: 50px;
+    padding: 75px;
+    position: relative;
+    z-index: 5;
+    float: left;
+    opacity: 0.7;
+}
+.state-photo-bofang:hover{
+	opacity: 1;
+}
+.the-dongtai-content ul{
+	margin: 15px 0 0 400px
+}
+.the-dongtai-content ul img {
+	width: 17px;
+	float: left;
+	margin-right: 5px;
+}
+.the-dongtai-content li{
+	float: left;
+	list-style:none;
+	
+}
+.the-dongtai-content > ul li a{
+	font-size: 12px;
+}
+
+
+

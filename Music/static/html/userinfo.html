@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music</title>
+    <link rel="stylesheet" href="../css/frame.css">
+    <link rel="stylesheet" href="../css/userinfo.css">
+    <link rel="stylesheet" href="../css/state.css">
+    <link rel="stylesheet" href="../css/music.css">
+    <link rel="stylesheet" href="../css/fansmyfollow.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-center center">
+            <h1>
+                <img src="../image/logo.png" />
+            </h1>
+            <ul class="nav">
+                <li><a href="index.html" class="active">发现音乐</a></li>
+                <li><a href="javascript:;" class="mymusic">我的音乐</a></li>
+            </ul>
+            <div class="top-tool">
+                <div class="top-search">
+					<i class="icn-search"></i> <input type="text"
+						placeholder="音乐/歌手">
+					<ul class="result">
+                    </ul>
+				</div>
+                <div class="top-user">
+                    <a href="login.html" class="user-login" id="login">登录</a>
+
+                    <div class="user-memb" id="user-memb">
+                        <img src="" />
+                        <ul class="slide-down" id="slide-down">
+                            <li><a href="javascript:;" id="homepage">我的主页</a></li>
+                            <li><a href="javascript:;" class="logout" id="logout">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-list">
+            <div class="center">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="retu-top">
+            <a href="#"><img alt="" src="../image/top.png"> </a>
+        </div>
+        <div class="wrap-in">
+            <div class="main-title column">
+                <div class="photo">
+                    <img src="../image/default.png" class="photo">
+                </div>
+                <div class="more-info">
+
+                    <div class="infor-1" id="username">
+                        <span></span>
+                        <div id="userbutton">+&nbsp;关注</div>
+                        <a href="usersetting.html" class="edit" id="editPerson">编辑个人资料</a>
+                    </div>
+                    <div class="info-2">
+
+                        <div class="number2">
+                            <div class="number2-2"><a href="javascript:;" class="num" id="follow">0</a><br>关注</div>
+                            <div class="number2-2" id="number2-3"><a href="javascript:;" class="num" id="fan">0</a><br>粉丝
+                            </div>
+                        </div>
+                        <div class="place" id="introduction">个性签名：<span></span></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-mlist column">
+                <h3>我喜欢的歌曲</h3>
+                <ul>
+
+                </ul>
+            </div>
+
+            <div class="main-mform column">
+                <h3>我创建的歌单</h3>
+                <ul class="the-song-list" id="creatlist">
+
+                </ul>
+            </div>
+
+
+            <div class="main-mform column">
+                <h3>我收藏的歌单</h3>
+                <ul class="the-song-list" id="collist">
+                    <!-- 	<li>
+					<div class="u-cover">
+						<img src="image/cd3.jpg" class="cover"/>
+						<div class="msk"></div>
+						<a href="#"><img src="image/bofang.png" class="sl-bofang icon-play"/></a>
+						<div class="bf-area">
+							<img src="image/耳机.png" class="erji"/>
+							<i>89564</i>
+						</div>
+					</div>
+					<p class="song-tit">
+						<a href="./songdetail" class="song-txt">A Brand New Day </a>
+					</p>
+					
+				</li> -->
+
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-center">
+            <a class="recruit" href="javascript:;">
+                <p>欢迎来到丹丹阳的音乐网站</p> <span>加入我们 即将与歌手互动</span>
+            </a>
+            <div class="copy">
+              
+                <p>发行时间：2020/3/31</p>
+            </div>
+            <a class="feedback" href="javascript:;"><i></i>意见反馈</a>
+        </div>
+    </div>
+
+
+	<!-- 播放条 -->
+	<div class="fix-bottom">
+		<div class="fix-lock">
+			<div class="lock-img">
+				<a href="javascript:;" class="unlock"></a>
+			</div>
+		</div>
+		<div class="fix-play">
+			<div class="play-btns" id="play-btns">
+				<a href="javascript:;" class="prv" title="上一首"></a> <a
+					href="javascript:;" id="data-ps" class="ply" title="播放"> <!--.pas-->
+				</a> <a href="javascript:;" class="nxt" title="下一首"></a>
+			</div>
+			<div class="play-head">
+				<a href="#"><img src="../image/default_album.jpg" alt=""></a>
+			</div>
+			<div class="play-ing" id="play-ing">
+				<div class="ptitle">
+					<a href="#" class="title" title="曲名"></a> <a href="#"
+						class="singer" title="演绎者"></a>
+				</div>
+				<div class="pbar">
+					<div class="barbg">
+						<!-- 总进度条 -->
+						<div class="rdy"></div>
+						<!-- 已加载 -->
+						<div class="cur">
+							<div class="cur-inner">
+								<span class="btn-cur"><i></i></span>
+							</div>
+							'
+							<!-- <span class="btn-cur" id="data-cur"><i><!-- loading... -->
+							</i></span>
+						</div>
+					</div>
+					<span class="clock"><i>00:00</i> / <em>00:00</em></span>
+				</div>
+			</div>
+			<div class="play-oper" id="play-oper">
+				<a href="javascript:;" class="icon-colle" title="喜欢"></a>
+			</div>
+			<div class="play-oper" id="play-scdgd">
+				<a href="javascript:;" class="icon-scdgd" title="收藏"></a>
+			</div>
+			<div class="play-form">
+				<div class="form-title">
+					<h3>播放列表</h3>
+					<a href="javascript:;" class="icon-empty"><span></span>清空</a> <a
+						href="javascript:;" class="table-close" title="关闭"></a>
+				</div>
+				<div class="form-tab" id="form-tab">
+					<ul class="mtab" id="mtab">
+						<!-- 播放列表 -->
+					</ul>
+					<div class="empty">播放列表为空哦</div>
+				</div>
+				<div class="scrol">
+					<span class="icon-scl"></span>
+				</div>
+			</div>
+			<div class="play-ctrl" id="play-ctrl">
+				<div class="cbar">
+					<div class="barbg">
+						<!-- 音量调节条 -->
+						<div class="cur">
+							<span class="btn-cur" id="ctrl-cur"></span>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" class="icon-vol" title="音量"></a> <a
+					href="javascript:;" class="icon-loop" id="data-lop" title="循环"></a>
+				<div class="lp-tip">单曲循环</div>
+				<span class="music-list"> 
+					<a href="javascript:;" class="icon-list" title="播放列表">0</a> <em>已添加到播放列表</em>
+				</span>
+			</div>
+
+		</div>
+		<audio id="player" controls="false"> <source src=""></source>
+		<embed src="" type="" controls="false"></audio>
+	</div>
+
+
+    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/music.js"></script>
+    <script type="text/javascript" src="../js/frame.js"></script>
+    <script typs="text/javascript" src="../js/userinfo.js"></script>
+    <script type="text/javascript" src="../js/mlist.js"></script>
+</body>
+
+</html>

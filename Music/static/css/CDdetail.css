@@ -1,0 +1,473 @@
+.fff{
+	width: 980px;
+	margin: auto;
+	background-color:white;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+
+
+
+/****************left****************/
+.cd-left{
+	float: left;
+	width: 710px;
+	border-right: 1px solid #d4d4d4;
+}
+#the-cd-top{
+	height: 230px;
+}
+#the-cd-cover{
+	margin-top: 23px;
+	margin-left: 35px;
+	float: left;
+	width: 170px;
+	height: 60px;
+}
+#cd-des{
+	width: 450px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 22px;
+}
+.the-cd-detail-cover {
+	position: relative;
+	z-index: 1;
+}
+.the-cd-detail-msk {
+    width: 198px;
+    position: relative;
+    z-index: 0;
+    top: -168px;
+    margin-left: 7px;
+}
+#cd-mes .the-cd-detail-icon{
+	background: url(../image/bofang-icon.png);
+	background-size: 70px;
+    width: 55px;
+    height: 25px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-size: 12px;
+}
+#the-cd-tit{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	margin: -24px 0px 0px 77px;
+}
+#cd-des p {
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 22px;
+	color: dimgray;
+}
+
+.the-cd-mass{
+	margin-top: 17px;
+margin-left: 3px;
+}
+
+#cd-des a{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	color: blue;
+}
+
+#the-cd-icon{
+	width: 500px;
+	
+}
+#the-cd-icon img{
+	width: 23px;
+	margin: 10px 55px 0px 0px;
+}
+#the-cd-icon p{
+	margin-top: -18px;
+    margin-left: 25px;
+}
+#the-cd-icon a{
+	text-decoration: none;
+	float: left;
+}
+.the-cd-content{
+	margin: -10px 0px 0px 36px;
+}
+.the-cd-content b{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.the-cd-content p {
+	color: dimgray;
+	width: 620px;
+    margin: 3px 0px 0px 15px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.the-cd-descri{
+	height: 70px;
+	overflow: hidden;
+}
+
+.the-cd-toggle{
+	color:blue;
+	float: right;
+	font-size: 12px;
+	margin-right: 34px;
+	margin-top: 10px;
+}
+
+
+
+/****************鍒楄〃************/
+#the-cd-detail-list{
+	margin-top: 30px;
+}
+.f-cd{
+	height: 27px;
+    border-bottom: 2px solid #033e7b;
+    width: 636px;
+    margin: 0px 37px;
+}
+.f-cd-text{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+}
+.f-cd p{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: dimgray;
+	margin: -17px 0px 0px 120px;
+}
+
+/****************table**********************/
+#the-song-list-table table{
+    width: 636px;
+    margin: 0px 37px;
+    border: 1px solid #e8e8e8;
+    /*text-align: center;*/
+}
+#the-song-list-table a {
+	text-decoration: none;
+	color: grey;
+	white-space: nowrap;
+}
+#the-song-list-table a:hover {
+	text-decoration:underline;
+	} 
+.list1{
+	width: 50px;
+}
+.list2{
+	width: 180px;
+}
+.list3{
+	width: 90px;
+}
+#the-song-list-table table.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    border-collapse: collapse;
+}
+#the-song-list-table table.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#the-song-list-table table.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: none;
+    border-color: #e8e8e8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+.the-songer-hidden{
+	width: 100px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.the-title-hidden {
+	width: 180px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.the-cd-hidden {
+	width: 120px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*************right******************/
+.cd-right{
+	float: right;
+	width: 269px;
+}
+
+.cd-right h6{
+	margin: 0 5%;
+	font-size: 12px;
+	line-height: 38px;
+	border-bottom: solid 1px #ccc;
+}
+
+
+.sidebar-photo-right{
+	margin: 15px 14px;
+
+}
+
+.sidebar-photo-right li{
+	margin-top: 6px;
+
+}
+
+.sidebar-photo-right p{
+	float: left;
+	
+	font-size: 12px;
+	line-height: 19px;
+	margin-top: 6px;
+	margin-left: 14px;
+	letter-spacing: 2px;
+}
+
+
+.sidebar-photo-right p> a{
+	color: gray;
+}
+
+.sidebar-photo-right img{
+	float: left;
+	width: 50px;
+}
+
+
+
+
+.clear{
+	*zoom: 1;
+}
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*****************璇勮********************/
+#the-cd-detail-comment {
+	margin-top: 30px;
+}
+#the-comment-textdiv{
+	width: 736px;
+}
+#the-comment-textarea{
+	resize: none;
+	width: 631px;
+    height: 45px;
+    margin: 8px 0px 0px 37px;
+    border: solid 1px #C6C6C6;
+}
+#the-comment-textdiv button {
+	margin: 9px 0 0 598px;
+	color: white;
+	padding: 5px;
+	width: 74px;
+	border: none;
+	background-color: lightseagreen;
+}
+#the-cd-detail-comment a{
+	text-decoration: none;
+	font-family: verdana,arial,sans-serif;
+    font-size:13px;
+    cursor: pointer;
+    color:gray;
+}
+#the-cd-detail-comment a:hover {
+	text-decoration:underline;
+} 
+#the-cd-detail-comment li {
+	margin-left: 37px;
+	margin-top: 25px;
+	padding-bottom: 20px;
+	width: 633px;
+	list-style: none;
+	border-bottom: 1px solid #CCCCCC;
+	font-family: verdana,arial,sans-serif;
+    font-size:13px;
+    color:#333333;
+}
+.the-comment-photo {
+	width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+}
+.the-comment-date{
+	margin: 10px 0 25px 59px;
+	color: #999999;
+}
+.the-comment-date p {
+	float: left;
+	margin-top: 0px;
+}
+.the-comment-date img {
+	width: 20px;
+	float: left;
+	opacity: 0.8;
+}
+.the-comment-date-detail{
+	margin-right: 300px;
+}
+
+
+/**********************椤电爜*************************/
+/*璁剧疆 a 鏍囩鐨刢ss鏍峰紡*/
+.page-normal a{
+	border: 1px solid darkslateblue;
+	padding: 5px 7px;
+	height: 20px;
+	color: darkslateblue;
+	margin-left: 5px;/*璁剧疆鏍囩 a 涔嬮棿鐨勯棿闅�*/
+	text-decoration: none;/*鍘婚櫎椤电爜鏁板瓧涓嬮潰鐨勪笅鍒掔嚎*/
+}
+/*璁剧疆榧犳爣缁忚繃鏃� a 鏍囩鐨刢ss鏍峰紡*/
+.page-normal a:hover{
+	background-color: #808080;
+}
+	
+	/*璁剧疆鏁翠釜div鐨刢ss鏍峰紡,璇ユ牱寮忎富瑕佺敤浜庤缃綉椤靛唴鐨勭渷鐣ュ彿 鈥︹�� 鐨勬牱寮忥紝骞朵笖鍚屾椂璁剧疆鍐呭灞呬腑鏄剧ず*/
+.page-normal{
+	color: darkslateblue;
+	margin:20px 0 0 0;/*璁剧疆璺濈椤堕儴20鍍忕礌*/
+	/*font-size:0;淇琛屽唴鍏冪礌涔嬮棿绌洪殭闂撮殧*/
+	text-align:center;/*璁剧疆鍐呭灞呬腑鏄剧ず*/
+	/*min-height: 100%;
+	/*height: 60px;*/
+	margin-top: -60px;
+	width:53%;
+	height:30px;
+	position:absolute;
+	bottom:-1000px;
+}
+	
+	/*璁剧疆褰撳墠椤甸潰鐨刢ss鏍峰紡*/
+.page-normal .page-current{
+	color: #ffffff;
+	background-color: #033e7b;
+}
+	
+	/*璁剧疆宸﹀崟鎷彿 < 鐨刢ss鏍峰紡*/
+.page-normal .page-prev{
+	color: #808080;
+}
+	
+	/*杩涜浠ｇ爜浼樺寲锛屽皢涓嶅悓css鏍峰紡涓叡鏈夌殑灞炴�ф斁鍦ㄤ竴璧凤紝鏈夊姪浜庢彁楂樿繍琛屾晥鐜�*/
+.page-normal a, .page-normal a:hover, .page-normal .page-prev, .page-normal .page-current{
+	border: 1px solid darkslateblue;
+	padding: 5px 7px;
+}
+	
+/*璁剧疆鍏辨湁鐨勭殑鏍峰紡甯冨眬锛屼富瑕佹槸杩涜浠ｇ爜浼樺寲锛屾彁楂樿繍琛屾晥鐜�*/
+.page-disabled,.page-next{
+	border:1px solid #ccc;
+	border-radius:3px;
+	padding:4px 10px 5px;
+	font-size:14PX;/*淇琛屽唴鍏冪礌涔嬮棿绌洪殭闂撮殧*/
+	margin-right:10px;
+}
+	
+.page-current{
+	color:darkslateblue;
+	padding:4px 10px 5px;
+	font-size:14PX;/*淇琛屽唴鍏冪礌涔嬮棿绌洪殭闂撮殧*/
+}
+	
+.page-disabled{
+	color:#ccc;
+}
+	
+.page-next i,.page-disabled i{
+	cursor:pointer;/*璁剧疆榧犳爣缁忚繃鏃剁殑鏄剧ず鐘舵�侊紝杩欓噷璁剧疆鐨勬槸鏄剧ず鐘舵�佷负灏忔墜鐘舵��*/
+	display:inline-block;/*璁剧疆鏄剧ず鐨勬柟寮忎负琛屽唴鍧楀厓绱�*/
+	width:5px;
+	height:9px;
+	background-image:url(http://img.mukewang.com/547fdbc60001bab900880700.gif);/*鑾峰彇鍥炬爣鐨勮儗鏅摼鎺�*/
+}
+.page-disabled i{
+	background-position:-80px -608px;
+	margin-right:3px;
+}
+ 
+.page-next i{
+	background-position:-62px -608px;
+	margin-left:3px;
+}
+
+/*************/
+.dd-oper{
+	width: 110px;
+	float: right;
+}
+
+.dd-oper a{
+	width: 17px;
+	height: 17px;
+	margin: -1px 5px;
+	display: block;
+	float: left;
+}
+.dd-oper a.icon-play {
+	background: url('../image/index.png');
+	background-position: -267px -268px;
+}
+.dd-oper a.icon-play:hover{
+	background-position: -267px -288px;
+}
+.dd-oper a.icon-add {
+	width: 15px;
+	background: url('../image/iconplay.png');
+	background-position: 0 -698px;
+}
+.dd-oper a.icon-add:hover{
+	background-position: -22px -698px;
+}
+
+.dd-oper a.icon-scdgd {
+	background: url('../image/index.png');
+	background-position: -297px -268px;
+}
+.dd-oper a.icon-scdgd:hover{
+	background-position: -297px -288px;
+}
+
+.dd-oper a.icon-store {
+    background: url(../image/aixin.png);
+	background-size: 100%;
+}
+
+.dd-oper a.icon-store:hover {
+    transform: scale(1.1);
+}
+
+	
+	
+	

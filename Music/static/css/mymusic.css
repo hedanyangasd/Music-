@@ -1,0 +1,844 @@
+.fff {
+	width: 980px;
+	margin: auto;
+	background-color: white;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+
+/****************left****************/
+.cd-left {
+	float: right;
+	width: 710px;
+	border-left: 1px solid #d4d4d4;
+}
+
+#the-cd-top {
+	height: 230px;
+}
+
+#the-cd-cover {
+	margin-top: 23px;
+	margin-left: 35px;
+	float: left;
+	width: 170px;
+	height: 60px;
+}
+
+#the-cd-cover img {
+	width: 170px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+}
+
+#cd-des {
+	width: 450px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.cd-des-p {
+	height: 65px;
+}
+
+.cd-des-img {
+	width: 50px;
+	float: left;
+	margin-top: 15px;
+}
+
+
+#the-songlist-cre {
+	float: left;
+	margin: 30px 0px 0px 15px;
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#cd-mes .the-cd-detail-icon {
+	background: url(../image/bofang-icon.png);
+	background-size: 70px;
+	width: 55px;
+	height: 20px;
+	color: white;
+	padding-left: 15px;
+	padding-top: 9px;
+	font-size: 12px;
+}
+
+#the-cd-tit {
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	margin: -24px 0px 0px 77px;
+}
+
+#cd-des p {
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	color: dimgray;
+}
+
+#cd-mes a {
+	color: blue;
+	text-decoration: none;
+}
+
+#the-cd-icon {
+	width: 500px;
+	margin-top: 20px;
+}
+
+#the-cd-icon img {
+	width: 23px;
+	margin: 10px 55px 0px 0px;
+}
+
+#the-cd-icon p {
+	margin-top: -18px;
+	margin-left: 24px;
+}
+
+#the-cd-icon a {
+	text-decoration: none;
+	float: left;
+}
+
+.the-cd-content {
+	width: 480px;
+	margin: -100px 0px 0px 218px;
+}
+
+.the-cd-content p {
+	color: dimgray;
+	width: 460px;
+	margin: 3px 0px 0px 15px;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+.the-cd-descri {
+	height: 55px;
+	overflow: hidden;
+}
+
+.the-cd-toggle {
+	float: right;
+	font-size: 12px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.f-mymusic-text {
+	float: left;
+}
+
+/****************列表************/
+.f-cd {
+	height: 27px;
+	border-bottom: 2px solid #033e7b;
+	width: 636px;
+	padding: 0px 37px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 10px;
+}
+
+.f-cd-text {
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#f-cd-number {
+
+	width: 86%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-size: 13px;
+	color: dimgray;
+}
+
+#f-cd-number a {
+	color: dimgray;
+}
+
+.dd-oper {
+	width: 110px;
+	float: right;
+}
+
+.dd-oper a {
+	width: 17px;
+	height: 17px;
+	margin: -1px 5px;
+	display: block;
+	float: left;
+}
+
+.dd-oper a.icon-play {
+	background: url('../image/index.png');
+	background-position: -267px -268px;
+}
+
+.dd-oper a.icon-play:hover {
+	background-position: -267px -288px;
+}
+
+.dd-oper a.icon-add {
+	width: 15px;
+	background: url('../image/iconplay.png');
+	background-position: 0 -698px;
+}
+
+.dd-oper a.icon-add:hover {
+	background-position: -22px -698px;
+}
+
+.dd-oper a.icon-store {
+	background: url(../image/aixin.png);
+	background-size: 100%;
+}
+
+.dd-oper a.icon-store:hover {
+	transform: scale(1.1);
+}
+
+.dd-oper a.icon-del {
+	width: 15px;
+	background: url('../image/iconplay.png');
+	background-position: 0 -281px;
+}
+
+.dd-oper a.icon-del:hover {
+	background-position: -20px -282px;
+}
+
+#the-song-list-table table {
+	width: 711px;
+	border: 1px solid #e8e8e8;
+	/*text-align: center;*/
+}
+
+#the-song-list-table a {
+	text-decoration: none;
+	color: grey;
+	white-space: nowrap;
+}
+
+#the-song-list-table a:hover {
+	text-decoration: underline;
+}
+
+.list1 {
+	width: 50px;
+}
+
+.list2 {
+	width: 250px;
+}
+
+.list3 {
+	width: 90px;
+}
+
+.list4 {
+	width: 90px;
+}
+
+#the-song-list-table table.altrowstable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-collapse: collapse;
+}
+
+#the-song-list-table table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #e8e8e8;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#the-song-list-table table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: none;
+	border-color: #e8e8e8;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+.the-songer-hidden {
+	width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.the-title-hidden {
+	width: 180px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.the-cd-hidden {
+	width: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+/*************right******************/
+
+.cd-right {
+	overflow-y: auto;
+	overflow-x: hidden;
+	float: right;
+	width: 267px;
+	height: 550px;
+	border-right: 1px solid #d4d4d4;
+
+}
+
+.cd-right-name {
+	font-size: 17px;
+	margin: 46px 0 0 21px;
+}
+
+.cd-right>a {
+	display: block;
+	padding-left: 25px;
+	padding-top: 40px;
+	font-size: 18px;
+	line-height: 38px;
+	border-bottom: solid 1px #ccc;
+}
+
+.rank-list {
+	display: flex;
+	margin-top: 14px;
+	flex-direction: column;
+}
+
+.active {
+	background-color: #ccc;
+}
+
+.rank {
+	display: flex;
+	align-items: flex-end;
+	padding: 13px 23px;
+	height: 43px;
+	width: 234px;
+}
+
+.rank img {
+	width: 40px;
+	margin-right: 12px;
+}
+
+.rank p {
+	cursor: pointer;
+	padding: 3px;
+}
+
+.sidebar-photo {
+	margin: 15px -28px;
+
+}
+
+.sidebar-photo li {
+	margin-top: 6px;
+
+}
+
+.sidebar-photo p {
+	float: left;
+	color: gray;
+	font-size: 12px;
+	line-height: 19px;
+	margin-top: 6px;
+	margin-left: 14px;
+	letter-spacing: 2px;
+}
+
+.sidebar-photo img {
+	float: left;
+	width: 50px;
+}
+
+
+.clear {
+	*zoom: 1;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/*******************create**********************/
+
+.mymusic-create {
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	color: dimgray;
+	background-color: #ccc;
+	border-radius: 4px;
+	padding: 3px 13px;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	left: 167px;
+	top: 38px;
+}
+
+.mymusic-main {
+	margin: auto;
+	width: 267px;
+	min-width: 50px;
+	height: 200px;
+}
+
+.mymusic-nav {
+
+	width: 269px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+.mymusic-nav a {
+	margin-left: 8px;
+	font-size: 16px;
+	line-height: 2;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+
+.mymusic-nav-ul {
+
+	padding-left: 0;
+}
+
+.mymusic-nav-ul li {
+	padding: 5px;
+	margin-top: 6px;
+}
+
+.mymusic-nav-ul p {
+	cursor: pointer;
+	width: 157px;
+	float: left;
+	color: gray;
+	font-size: 12px;
+	line-height: 19px;
+	margin-top: 6px;
+	margin-left: 14px;
+	letter-spacing: 2px;
+}
+
+.the-mumusic-delete-tou {
+	cursor: pointer;
+	float: left;
+	width: 50px;
+}
+
+.the-mumusic-delete-icon {
+	cursor: pointer;
+	margin-top: 24px;
+	width: 20px;
+	opacity: 0.4;
+}
+
+.active-color {
+	background-color: #f6f6f6;
+}
+
+.active {
+	display: none;
+}
+
+/*****************comment********************/
+#the-cd-detail-comment {
+	margin-top: 30px;
+}
+
+#the-comment-textdiv {
+	width: 736px;
+}
+
+#the-comment-textarea {
+	resize: none;
+	width: 631px;
+	height: 45px;
+	margin: 8px 0px 0px 37px;
+	border: solid 1px #C6C6C6;
+}
+
+#the-comment-textdiv button {
+	margin: 9px 0 0 598px;
+	color: white;
+	padding: 5px;
+	width: 74px;
+	border: none;
+	background-color: lightseagreen;
+}
+
+#the-cd-detail-comment a {
+	text-decoration: none;
+	font-family: verdana, arial, sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+	color: gray;
+}
+
+#the-cd-detail-comment a:hover {
+	text-decoration: underline;
+}
+
+#the-cd-detail-comment li {
+	margin-left: 37px;
+	margin-top: 25px;
+	padding-bottom: 20px;
+	width: 633px;
+	list-style: none;
+	border-bottom: 1px solid #CCCCCC;
+	font-family: verdana, arial, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+.the-comment-photo {
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+}
+
+.the-comment-date {
+	margin: 10px 0 25px 0;
+	color: #999999;
+}
+
+.the-comment-date p {
+	float: left;
+	margin-top: 0px;
+}
+
+.the-comment-date img {
+	width: 20px;
+	float: left;
+	opacity: 0.8;
+}
+
+.the-comment-date-detail {
+	margin-right: 300px;
+}
+
+
+/***********************写动态的第一个弹出框************************/
+#div1 {
+	position: fixed;
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding-top: 10%;
+	margin: 1% 29%;
+	z-index: 1001;
+	left: 0px;
+	top: 0px;
+}
+
+#the-fabiao-ttt {
+	border-radius: 5px;
+	width: 530px;
+	box-shadow: #333333 5px 4px 14px 2px;
+	/*边框阴影*/
+}
+
+#the-fabiao-header {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 38px;
+	background-color: #333333;
+}
+
+#the-fabiao-header p {
+	padding: 8px 15px;
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	/*font-weight: bold;*/
+	color: white;
+}
+
+#the-fabiao-header input {
+	float: left;
+	font-size: 24px;
+	font-weight: 100;
+	color: gray;
+	border: none;
+	background-color: #333;
+	margin: -34px 0 0 492px;
+	height: 25px;
+	cursor: pointer;
+	outline: none;
+}
+
+#the-fabiao-content {
+	height: 254px;
+	background-color: white;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#the-fabiao-content-box {
+	padding: 20px 40px 15px;
+
+}
+
+#the-fabiao-write {
+	width: 445px;
+	height: 25px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+}
+
+.textArea {
+	resize: none;
+	width: 440px;
+	height: 14px;
+	padding: 4px;
+	font-size: 12px;
+
+}
+
+.the-fabiao-content-box-p {
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	color: dimgray;
+	margin-left: 38px;
+}
+
+#the-song-symbol {
+	width: 33px;
+	height: 33px;
+	background-color: #033e7b;
+	margin-top: 6px;
+	border-radius: 3px;
+}
+
+#the-fabiao-button p {
+	margin: -25px 38px;
+	font-size: 13px;
+	color: #333333;
+}
+
+#the-fabiao-button h2 {
+	margin: 3px 399px;
+	color: #AAAAAA;
+}
+
+#the-dongtai-footer {
+	margin: -9px 0 0 169px;
+	width: 445px;
+}
+
+#the-dongtai-footer input {
+	width: 80px;
+	font-weight: 100;
+	border: none;
+	float: left;
+	margin: 0 15px 0 0;
+	height: 28px;
+	cursor: pointer;
+	outline: none;
+	border-radius: 4px;
+	border: 1px solid #AAAAAA;
+}
+
+#the-dongtai-footer-icon1 {
+	background-color: #84dbdc;
+	color: white;
+}
+
+#the-dongtai-footer-icon2 {
+	background-color: white;
+	color: #333;
+}
+
+#the-dongtai-footer-icon1:hover {
+	background-color: #7dcfd0;
+}
+
+#the-dongtai-footer-icon2:hover {
+	background-color: #F5F5F5;
+}
+
+#chuangjian-songlist-touxiang {
+	border: 1px solid #CCCCCC;
+	width: 80px;
+	height: 80px;
+	margin-top: 12px;
+	background-color: #f9f9f9;
+}
+
+#chuangjian-songlist-touxiang p {
+	font-size: 53px;
+	color: gray;
+	margin-left: 18px;
+}
+
+/***********************写动态的第2个弹出框************************/
+#div2 {
+	position: fixed;
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding-top: 10%;
+	margin: 1% 41%;
+	z-index: 1001;
+	left: 0px;
+	top: 0px;
+}
+
+#the-fabiao-ttt2 {
+	border-radius: 5px;
+	width: 410px;
+	box-shadow: #333333 5px 4px 14px 2px;
+	/*边框阴影*/
+}
+
+#the-fabiao-header2 {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 38px;
+	background-color: #333333;
+}
+
+#the-fabiao-header2 p {
+	padding: 8px 15px;
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	/*font-weight: bold;*/
+	color: white;
+}
+
+#the-fabiao-header2 input {
+	float: left;
+	font-size: 24px;
+	font-weight: 100;
+	color: gray;
+	border: none;
+	background-color: #333;
+	margin: -34px 0 0 389px;
+	height: 25px;
+	cursor: pointer;
+	outline: none;
+}
+
+#the-fabiao-content2 {
+	height: 220px;
+	background-color: white;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding: 20px;
+}
+
+.mymusic-nav-ul2 {
+	height: 223px;
+	overflow-Y: auto;
+	overflow-X: hidden;
+	background-color: #f6f6f6;
+}
+
+.mymusic-nav-ul2 li {
+	height: 50px;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.mymusic-nav-ul2 p {
+	margin-top: 9px;
+	float: left;
+}
+
+.mymusic-nav-ul2 span {
+	margin-left: 20px;
+}
+
+.nav-ul2-li-active {
+	background-color: #ccc;
+}
+
+
+#file {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	opacity: 0;
+	z-index: 100;
+}
+
+#file:hover {
+	cursor: pointer;
+}
+
+.change-photo {
+	background-color: #000000;
+	opacity: 0.5;
+	color: #FFFFFF;
+	position: relative;
+	bottom: -63px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 9pt;
+	padding-left: 2px;
+}
+
+#user {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ececec;
+
+}
+
+#user:hover {
+	cursor: pointer;
+}
+
+
+#header_box {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	position: relative;
+	margin-top: 5px;
+}

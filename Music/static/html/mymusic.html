@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music</title>
+    <link rel="stylesheet" href="../css/frame.css">
+    <link rel="stylesheet" href="../css/mymusic.css">
+    <link rel="stylesheet" href="../css/fenye.css">
+    <link rel="stylesheet" href="../css/music.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-center center">
+            <h1>
+                <img src="../image/logo.png" />
+            </h1>
+            <ul class="nav">
+                <li><a href="index.html" class="active">发现音乐</a></li>
+                <li><a href="javascript:;" class="mymusic">我的音乐</a></li>
+            </ul>
+            <div class="top-tool">
+                <div class="top-search">
+					<i class="icn-search"></i> <input type="text"
+						placeholder="音乐/歌手">
+					<ul class="result">
+                    </ul>
+				</div>
+                <div class="top-user">
+                    <a href="login.html" class="user-login" id="login">登录</a>
+
+                    <div class="user-memb" id="user-memb">
+                        <img src="" />
+                        <ul class="slide-down" id="slide-down">
+                            <li><a href="userinfo.html" id="homepage">我的主页</a></li>
+                            <li><a href="javascript:;" class="logout" id="logout">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-list">
+            <div class="center">
+                <ul class="sub-nav">
+                    <li><a class="active" href="index.html">推荐</a></li>
+                    <li><a href="rank.html">排行榜</a></li>
+                    <li><a href="singer.html">歌手</a></li>
+                    <li><a href="songlist.html">歌单</a></li>
+                    <li><a href="singerCD.html">专辑</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="fff clear">
+            <div class="cd-left">
+                <div id="cd-mes">
+                    <div id="the-cd-top">
+                        <div id="the-cd-cover">
+                            <img src="../image/default.png" class="the-cd-detail-cover" />
+                        </div>
+                        <div id="cd-des">
+                            <p class="the-cd-detail-icon">歌单</p>
+                            <h3 id="the-cd-tit">打破次元墙 | 这些歌手竟然合作过！</h3>
+                            <div id="the-cd-icon">
+                                <a class="play"> <img src="../image/播放.png" />
+                                    <p>播放</p>
+                                </a>
+                                <a class="del"><img src="../image/删除.png" />
+                                    <p>删除</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="the-cd-content the-cd-descri"> 
+                        <p>
+                            介绍： 想不到吧，这些中外歌手竟然合作过！<br />
+                            当华语歌手与外籍歌手合作时，会爆发出怎样令人意想不到的火花呢？快来查收这些打破次元壁的歌曲吧！
+                        </p>
+                    </div>
+                    <a class="the-cd-toggle">展开∨</a>
+                </div>
+
+                <div id="the-cd-detail-list">
+                    <div class="f-cd">
+                        <div>
+                            <span class="f-cd-text">歌曲列表</span>
+                        </div>
+
+                        <div id="f-cd-number">
+                            <a>100首歌</a>
+                        </div>
+
+                    </div>
+
+
+                    <div id="the-song-list-table">
+                        <table class="altrowstable" id="alternatecolor">
+
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cd-right">
+
+                <ul class="mymusic-main">
+                    <button class="mymusic-create" onClick="openme()">+新建</button>
+                    <li class="mymusic-nav" id="create">
+                        <a>创建的歌单&nbsp;&nbsp;&nbsp;&nbsp;<span id='createnum'>(1)</span>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                        <ul class="mymusic-nav-ul">
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="footer-center">
+            <a class="recruit" href="javascript:;">
+                <p>欢迎来到丹丹阳的音乐网站</p> <span>加入我们 即将与歌手互动</span>
+            </a>
+            <div class="copy">
+               
+                <p>发行时间：2020/3/31</p>
+            </div>
+            <a class="feedback" href="javascript:;"><i></i>意见反馈</a>
+        </div>
+    </div>
+
+    <!-- *********************************弹出框 ************************************-->
+    <!--********************************************************新建************************************************************-->
+    <div id="div1">
+        <div id="the-fabiao-ttt">
+            <div id="the-fabiao-header">
+                <p>
+                    新建歌单
+                </p>
+                <input type="button" onclick="closeme()" value="×" />
+            </div>
+            <div id="the-fabiao-content">
+                <div id="the-fabiao-content-box">
+                    <p>歌单名：</p>
+                    <textarea class="textArea" id="sname"></textarea>
+                    <p>歌单简介：</p>
+                    <textarea class="textArea" id="sintro"></textarea>
+
+                    <div id="header_box">
+                        <img src="#" alt="" id="user" />
+                        <input type="file" id="file" />
+                        <a href="#" class="change-photo">&nbsp;歌&nbsp;&nbsp;单&nbsp;&nbsp;封&nbsp;&nbsp;面&nbsp;</a>
+                    </div>
+                </div>
+                <div id="the-dongtai-footer">
+                    <input id="the-dongtai-footer-icon1" type="button" value="新建" />
+                    <input id="the-dongtai-footer-icon2" type="button" onclick="closeme()" value="取消" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--********************************************************nav-li2************************************************************-->
+    <div id="div2">
+        <div id="the-fabiao-ttt2">
+            <div id="the-fabiao-header2">
+                <p>
+                    歌单
+                </p>
+                <input type="button" onclick="closeme2()" value="×" />
+            </div>
+            <div id="the-fabiao-content2">
+                <ul class="mymusic-nav-ul2">
+                    <li>
+                        <img src="image/cd1.jpg" class="the-mumusic-delete-tou">
+                        <p>
+                            <span>哈哈哈哈</span>
+                            <br /><span>1</span>首
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 播放条 -->
+    <div class="fix-bottom">
+        <div class="fix-lock">
+            <div class="lock-img">
+                <a href="javascript:;" class="unlock"></a>
+            </div>
+        </div>
+        <div class="fix-play">
+            <div class="play-btns" id="play-btns">
+                <a href="javascript:;" class="prv" title="上一首"></a> <a href="javascript:;" id="data-ps" class="ply"
+                    title="播放">
+                    <!--.pas-->
+                </a> <a href="javascript:;" class="nxt" title="下一首"></a>
+            </div>
+            <div class="play-head">
+                <a href="#"><img src="../image/default_album.jpg" alt=""></a>
+            </div>
+            <div class="play-ing" id="play-ing">
+                <div class="ptitle">
+                    <a href="#" class="title" title="曲名"></a> <a href="#" class="singer" title="演绎者"></a>
+                </div>
+                <div class="pbar">
+                    <div class="barbg">
+                        <!-- 总进度条 -->
+                        <div class="rdy"></div>
+                        <!-- 已加载 -->
+                        <div class="cur">
+                            <div class="cur-inner">
+                                <span class="btn-cur"><i></i></span>
+                            </div>
+                            '
+                            <!-- <span class="btn-cur" id="data-cur"><i><!-- loading... -->
+                            </i></span>
+                        </div>
+                    </div>
+                    <span class="clock"><i>00:00</i> / <em>00:00</em></span>
+                </div>
+            </div>
+            <div class="play-oper" id="play-oper">
+                <a href="javascript:;" class="icon-colle" title="喜欢"></a>
+            </div>
+            <div class="play-oper" id="play-scdgd">
+                <a href="javascript:;" class="icon-scdgd" title="收藏"></a>
+            </div>
+            <div class="play-form">
+                <div class="form-title">
+                    <h3>播放列表</h3>
+                    <a href="javascript:;" class="icon-empty"><span></span>清空</a> <a href="javascript:;"
+                        class="table-close" title="关闭"></a>
+                </div>
+                <div class="form-tab" id="form-tab">
+                    <ul class="mtab" id="mtab">
+                        <!-- 播放列表 -->
+                    </ul>
+                    <div class="empty">播放列表为空哦</div>
+                </div>
+                <div class="scrol">
+                    <span class="icon-scl"></span>
+                </div>
+            </div>
+            <div class="play-ctrl" id="play-ctrl">
+                <div class="cbar">
+                    <div class="barbg">
+                        <!-- 音量调节条 -->
+                        <div class="cur">
+                            <span class="btn-cur" id="ctrl-cur"></span>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;" class="icon-vol" title="音量"></a> <a href="javascript:;" class="icon-loop"
+                    id="data-lop" title="循环"></a>
+                <div class="lp-tip">单曲循环</div>
+                <span class="music-list">
+                    <a href="javascript:;" class="icon-list" title="播放列表">0</a> <em>已添加到播放列表</em>
+                </span>
+            </div>
+
+        </div>
+        <audio id="player" controls="false">
+            <source src="">
+            </source>
+            <embed src="" type="" controls="false"></audio>
+    </div>
+
+
+    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/music.js"></script>
+    <script type="text/javascript" src="../js/frame.js"></script>
+    <script type="text/javascript" src="../js/mlist.js"></script>
+    <script type="text/javascript" src="../js/mymusic.js"></script>
+</body>
+
+</html>

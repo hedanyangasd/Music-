@@ -1,0 +1,71 @@
+.fff{
+	width: 980px;
+	height:800px;
+	margin: auto;
+	background-color:white;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+.fff-in{
+	padding:28px 30px;
+}
+
+
+.ruzhu-singer{
+	height: 40px;
+    border-bottom: 2px solid #033e7b;
+}
+.f-cd-text{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    font-weight: normal;
+}
+
+.the-cd-list{
+	margin-left: -18px;
+	margin-top:16px;
+}
+
+.the-cd-list li {
+	width: 157px;
+    height: 178px;
+    display: list-item;
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 30px 30px;
+    line-height: 1.4;
+}
+
+.u-cover{
+	height: 85%;
+}
+
+.cover {
+    display: block;
+    width: 85%;
+    height: 85%;
+}
+
+.cd-tit a{
+    font-size: 14px;
+    color: #333;
+}
+.cd-txt{
+	display: inline-block;
+    max-width: 100%;
+    _width: 100%;
+    vertical-align: middle;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -25px;
+}
+.the-cd-list p{
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	margin: 8px 0 3px;
+}

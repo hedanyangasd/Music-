@@ -1,0 +1,357 @@
+.fff{
+	width: 980px;
+	margin: auto;
+	background-color:white;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+
+/****************left****************/
+.cd-left{
+	float: left;
+	width: 710px;
+	border-right: 1px solid #d4d4d4;
+}
+#the-singer-top{
+	height: 230px;
+}
+#the-singer-name{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin: 20px 0 0 33px;
+}
+#the-cd-cover{
+	margin-top: 10px;
+	margin-left: 35px;
+}
+#the-cd-cover img{
+	width: 642px;
+    height: 270px;
+}
+/****************歌手信息栏****************/
+#the-singer-mess{
+	margin-left: 35px;
+}
+#the-singer-mess-tit {
+	background-color: #FAFAFA;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    width: 640px;
+    height: 37px;
+}
+#the-singer-mess-tit li{
+	text-decoration: none;
+    float: left;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 8px 35px 8px 35px;
+}
+
+.dd-oper{
+	width: 110px;
+	float: right;
+}
+
+.dd-oper a{
+	width: 17px;
+	height: 17px;
+	margin: 0px 5px;
+	display: block;
+	float: left;
+}
+.dd-oper a.icon-play {
+	background: url('../image/index.png');
+	background-position: -267px -268px;
+}
+.dd-oper a.icon-play:hover{
+	background-position: -267px -288px;
+}
+.dd-oper a.icon-add {
+	width: 15px;
+	background: url('../image/iconplay.png');
+	background-position: 0 -698px;
+}
+.dd-oper a.icon-add:hover{
+	background-position: -22px -698px;
+}
+
+.dd-oper a.icon-scdgd {
+	background: url('../image/index.png');
+	background-position: -297px -268px;
+}
+.dd-oper a.icon-scdgd:hover{
+	background-position: -297px -288px;
+}
+
+.dd-oper a.icon-store {
+    background: url(../image/aixin.png);
+	background-size: 100%;
+}
+
+.dd-oper a.icon-store:hover {
+    transform: scale(1.1);
+}
+
+
+/****************列表************/
+#the-cd-detail-list{
+	margin-top: 140px;
+	margin-bottom: 200px; 
+}
+#the-songer-list-icon{
+	margin-left: 50px;
+	
+}
+#the-songer-list-icon p {
+	color: gray;
+	float: left;
+	margin-right: 25px;
+	margin-top: 1px;
+}
+#the-songer-list-icon img{
+	width: 20px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 11px;
+}
+.choosed {
+	background-color: white;
+	border-top: 2px solid #0C73C2;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+/*************************热门作品*********************************/
+#the-singer-mess-content1 {
+	width: 642px;
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+/****************table**********************/
+#the-song-list-table table{
+    width: 636px;
+    margin: 0px 37px;
+    border: 1px solid #e8e8e8;
+    /*text-align: center;*/
+}
+#the-song-list-table a {
+	text-decoration: none;
+	color: grey;
+	white-space: nowrap;
+}
+#the-song-list-table a:hover {
+	text-decoration:underline;
+	} 
+.list1{
+	width: 50px;
+}
+.list2{
+	width: 180px;
+}
+.list3{
+	width: 90px;
+}
+#the-song-list-table table.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    border-collapse: collapse;
+}
+#the-song-list-table table.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#the-song-list-table table.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: none;
+    border-color: #e8e8e8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+.the-songer-hidden{
+	width: 100px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.the-title-hidden {
+	width: 180px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.the-cd-hidden {
+	width: 120px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*************************所有专辑*********************************/
+#the-singer-mess-content2 {
+	width: 642px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 29px;
+    display: none;
+}
+#the-singer-mess-content2 ul{
+	margin-bottom: 20px;
+}
+.f-cd-text{
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    font-weight: normal;
+}
+.u-cover{
+	height: 75%;
+}
+.cover {
+    display: block;
+    width: 73%;
+    /* height: 75%; */
+    position: relative;
+    z-index: 2;
+    border: 1px solid #003366;
+}
+.msk {
+    width: 140px;
+    height: 110px;
+    margin-left: 3px;
+    position: relative;
+    top: -113px;
+    z-index: 1;
+}
+
+
+.cd-tit a{
+    font-size: 13px;
+    color: #333;
+    width: 125px;
+    overflow: hidden;
+}
+.cd-tit:hover a{
+	text-decoration: underline;
+	color: #033E7B;
+}
+.cd-txt{
+	display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -2px;
+}
+.cd-songer a{
+	margin-top: -65px;
+    font-size: 11px;
+    color: gray;
+}
+
+#the-singer-mess-content2 li {
+	width: 159px;
+    height: 160px;
+    display: list-item;
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1.4;
+}
+.the-cd-list{
+	margin-left: 5px;
+}
+/*************************歌手介绍*********************************/
+#the-singer-mess-content3 {
+	width:714px;
+    margin-top: 150px;
+    margin-bottom: 170px;
+    display: none;
+}
+#the-singer-descrip{
+	margin: 0px 37px;
+}
+#the-singer-descrip h3 {
+	padding-left: 7px;
+	border-left: 3px solid #0C73C2;
+	margin-bottom: 12px;
+}
+#the-singer-descrip p {
+	line-height: 25px;
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/*************right******************/
+.cd-right{
+	float: right;
+	width: 269px;
+}
+
+.cd-right h6{
+	margin: 0 5%;
+	font-size: 12px;
+	line-height: 38px;
+	border-bottom: solid 1px #ccc;
+}
+
+
+.sidebar-photo-right{
+	margin: 15px 14px;
+
+}
+
+.sidebar-photo-right li{
+	margin-top: 6px;
+
+}
+
+.sidebar-photo-right p{
+    color: gray;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 6px;
+    margin-left: 65px;
+    letter-spacing: 2px;
+    width: 156px;
+    height: 16px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.sidebar-photo-right img{
+	float: left;
+	width: 50px;
+}
+
+.sidebar-photo-right a {
+    color: black;
+}
+
+.clear{
+	*zoom: 1;
+}
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+	
